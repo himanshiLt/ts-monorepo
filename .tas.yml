@@ -11,6 +11,7 @@ postMerge :
         pattern: 
           - "./test/index.spec.ts"
         framework : jest
+        configFile: babel.config.js
 version : 2.0.0
 nodeVersion: 16.15.0
 tier: large
