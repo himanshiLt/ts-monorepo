@@ -1,11 +1,11 @@
 postMerge :
-  preRun: 
-    command:
-      - pnpm install
-      - pnpm run -r clean
-      - pnpm run -r build
   subModules:    
-      - name: jest-babel      
+      - name: jest-babel
+        preRun:
+          command:
+            - pnpm install
+            - pnpm run -r clean
+            - pnpm run -r build
         path : "./examples/jest-babel/"
         pattern: 
           - "./test/index.spec.ts"
