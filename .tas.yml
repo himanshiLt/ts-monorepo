@@ -13,7 +13,7 @@ postMerge :
         framework : jest
         
       - name: apps-jest-tsjest
-        path : "./apps/jest-tsjest/""
+        path : "./apps/jest-tsjest/"
         pattern: 
           - "./test/index.spec.ts"
         framework : jest
